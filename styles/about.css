@@ -1,0 +1,84 @@
+/* Remove browser default formatting */
+html, body {
+	margin: 0;
+	padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+}
+
+/* Set main styles */
+
+body {
+    background-image: url('../images/background2.jpg');
+	background-size: cover;
+}
+
+nav {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+        margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+    width: 25%;
+    color: #2a231d;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    background-color: rgba(255,255,255,0.57);
+    padding: 0.8em;
+text-decoration: none;
+color: #2a231d;
+}
+
+nav li a:hover, nav li a:focus {
+    background-color: rgba(255,255,255,0.9);
+}
+
+main {
+  position: fixed;
+  top: 48%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+background-color: rgba(255,255,255,0.57);
+color: #2a231d;
+width: 90%;
+height: 60%;
+padding: 1em;
+}
+
+main img {
+float: right;
+max-width: 300px;
+max-height: auto;
+padding: 0 0 1% 1%;
+}
+
+
+footer {
+position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1em;
+  background-color: rgba(255,255,255,0.57);
+  text-align: center;
+}
+
+footer p {
+    font-size: 80%;
+    margin: 0;
+    color: #2a231d;
+}
